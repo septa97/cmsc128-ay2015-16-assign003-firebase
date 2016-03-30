@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assign 003: Firebase</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="mainDataDiv">    
+                <div class="row">
+                    <div class="col s12">
+                        <div class="col s4" style="margin: 0;">
+                            <h5>NAME</h5>
+                        </div>
+                        <div class="col s4" style="margin: 0;">
+                            <h5>ORGANIZATION</h5>
+                        </div>
+                        <div class="col s4" style="margin: 0;">
+                            <h5>CONTACT NUMBER</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="input-field col s4">
+                        <input id="nameField" class="validate" type="text" id="nameInput">
+                        <label for="nameField">Name</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="organizationField" class="validate" type="text" id="organizationInput">
+                        <label for="organizationField">Organization</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="contactNumberField" class="validate" type="text" id="contactNumberInput">
+                        <label for="contactNumberField">Contact Number</label>
+                    </div>
+                </form>
+            </div>
+            <button id="submitButton" class="waves-effect waves-light btn">Submit</button>
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>
